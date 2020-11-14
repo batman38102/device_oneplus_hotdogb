@@ -17,9 +17,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit Google Play System Update stuff
 $(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
 
-# Inherit Gapps
-$(call inherit-product, vendor/gapps/gapps.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hotdogb
 PRODUCT_DEVICE := hotdogb
